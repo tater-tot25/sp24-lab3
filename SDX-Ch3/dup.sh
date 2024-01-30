@@ -1,1 +1,2 @@
-python dup.py tests/*.txt
+eval $(conda shell.bash hook)
+python3 dup.py sounds/*.wav
