@@ -16,3 +16,4 @@ if __name__ == "__main__":
     groups = find_groups(sys.argv[1:])
     for filenames in groups.values():
         print(", ".join(sorted(filenames)))
+

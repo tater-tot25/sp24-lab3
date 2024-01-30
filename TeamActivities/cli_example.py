@@ -85,3 +85,4 @@ unknown or unaddressed command line arguments.
 '''
 print(sys.argv[0], "error, unexpected arguments ", sys.argv[1:],file=sys.stderr)
 
+sys.exit(1)

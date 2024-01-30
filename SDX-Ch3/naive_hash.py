@@ -11,3 +11,6 @@ if __name__ == "__main__":
         hash = naive_hash(substring)
         print(f"{hash:2} {substring}")
     # [/example]
+
+result = naive_hash(bytes("what", "utf-8"))
+print(result)
